@@ -188,8 +188,9 @@ article:
   # 相关文章，需要安装插件 (for layout: post)
   # npm i hexo-related-popular-posts
   related_posts:
-    enable: false
-    max_count: 5
+    enable: true
+    title: 您可能感兴趣的文章
+    max_count: 3
 
 search:
   service: local_search # local_search, algolia_search, todo...
